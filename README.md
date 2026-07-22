@@ -2,12 +2,9 @@
 
 A landing page for a fictional digital product studio, built with React, Vite and Tailwind CSS v4.
 
-**Live demo:** _not deployed yet_
 **Design:** Figma → code, design-first workflow
+**Live demo:** [react-website-delta-ruby.vercel.app](https:/react-website-delta-ruby.vercel.app)
 
-<!-- Add a screenshot here once the hero is finished:
-![Screenshot](./docs/screenshot.png)
--->
 
 ---
 
