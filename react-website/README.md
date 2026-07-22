@@ -5,6 +5,10 @@ A landing page for a fictional digital product studio, built with React, Vite an
 **Live demo:** _not deployed yet_
 **Design:** Figma → code, design-first workflow
 
+<!-- Add a screenshot here once the hero is finished:
+![Screenshot](./docs/screenshot.png)
+-->
+
 ---
 
 ## About this project
