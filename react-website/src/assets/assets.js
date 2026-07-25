@@ -1,7 +1,7 @@
-//hero section
+/*hero*/
 import dashboard from './hero/dashboard.png'
 
-//icons
+/*icons*/
 import arrow_icon from './icons/arrow_icon.svg'
 import close_icon from './icons/close_icon.svg'
 import email_icon from './icons/email_icon.svg'
@@ -14,16 +14,15 @@ import menu_icon from './icons/menu_icon.svg'
 import sun_icon from './icons/sun_icon.svg'
 import moon_icon from './icons/moon_icon.svg'
 import twitter_icon from './icons/twitter_icon.svg'
-import fake_company_1 from '.icons/fake-company-1.svg'
-import fake_company_2 from '.icons/fake-company-1.svg'
-import fake_company_3 from '.icons/fake-company-1.svg'
-import fake_company_4 from '.icons/fake-company-1.svg'
+import fake_company_1 from './icons/fake-company-1.svg'
+import fake_company_2 from './icons/fake-company-2.svg'
+import fake_company_3 from './icons/fake-company-3.svg'
+import fake_company_4 from './icons/fake-company-4.svg'
 
-
-//logos
+/*logos*/
 import favicon from './logos/favicon.svg'
 import logo from './logos/logo.svg'
-import logo_dark from './logo_dark.svg'
+import logo_dark from './logos/logo_dark.svg'
 
 export const company_logos = [
 fake_company_1,
@@ -49,7 +48,10 @@ const assets = {
   fake_company_1,
   fake_company_2,
   fake_company_3,
-  fake_company_4
+  fake_company_4,
+  favicon,
+  logo,
+  logo_dark
 }
 
 export default assets
