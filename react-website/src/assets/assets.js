@@ -1,71 +1,55 @@
-import logo from './logo.svg'
-import arrow_icon from './arrow_icon.svg'
-import group_profile from './group_profile.png'
-import bgImage1 from './bgImage1.png'
-import bgImage2 from './bgImage2.png'
-import hero_img from './hero_img.png'
-import microsoft_logo from './microsoft_logo.png'
-import zoom_logo from './zoom_logo.png'
-import rakuten_logo from './rakuten_logo.png'
-import coinbase_logo from './coinbase_logo.png'
-import ads_icon from './ads_icon.svg'
-import content_icon from './content_icon.svg'
-import marketing_icon from './marketing_icon.svg'
-import social_icon from './social_icon.svg'
-import menu_icon from './menu_icon.svg'
-import close_icon from './close_icon.svg'
-import work_mobile_app from './work_mobile_app.png'
-import work_fitness_app from './work_fitness_app.png'
-import work_dashboard_management from './work_dashboard_management.png'
-import email_icon from './email_icon.svg'
-import person_icon from './person_icon.svg'
-import facebook_icon from './facebook_icon.svg'
-import twitter_icon from './twitter_icon.svg'
-import instagram_icon from './instagram_icon.svg'
-import linkedin_icon from './linkedin_icon.svg'
-import logo_dark from './logo_dark.svg'
-import airbnb_logo from './airbnb_logo.svg'
-import google_logo from './google_logo.svg'
-import menu_icon_dark from './menu_icon_dark.svg'
-import sun_icon from './sun_icon.svg'
-import moon_icon from './moon_icon.svg'
+//hero section
+import dashboard from './hero/dashboard.png'
 
+//icons
+import arrow_icon from './icons/arrow_icon.svg'
+import close_icon from './icons/close_icon.svg'
+import email_icon from './icons/email_icon.svg'
+import facebook_icon from './icons/facebook_icon.svg'
+import instagram_icon from './icons/instagram_icon.svg'
+import linkedin_icon from './icons/linkedin_icon.svg'
+import marketing_icon from './icons/marketing_icon.svg'
+import menu_icon_dark from './icons/menu_icon_dark.svg'
+import menu_icon from './icons/menu_icon.svg'
+import sun_icon from './icons/sun_icon.svg'
+import moon_icon from './icons/moon_icon.svg'
+import twitter_icon from './icons/twitter_icon.svg'
+import fake_company_1 from '.icons/fake-company-1.svg'
+import fake_company_2 from '.icons/fake-company-1.svg'
+import fake_company_3 from '.icons/fake-company-1.svg'
+import fake_company_4 from '.icons/fake-company-1.svg'
+
+
+//logos
+import favicon from './logos/favicon.svg'
+import logo from './logos/logo.svg'
+import logo_dark from './logo_dark.svg'
 
 export const company_logos = [
-  microsoft_logo,
-  zoom_logo,
-  rakuten_logo,
-  coinbase_logo,
-  airbnb_logo,
-  google_logo,
+fake_company_1,
+fake_company_2,
+fake_company_3, 
+fake_company_4
 ]
 
 const assets = {
-  logo,
+  dashboard,
   arrow_icon,
-  group_profile,
-  bgImage1,
-  bgImage2,
-  hero_img,
-  ads_icon,
-  content_icon,
-  marketing_icon,
-  social_icon,
-  menu_icon,
   close_icon,
-  work_mobile_app,
-  work_fitness_app,
-  work_dashboard_management,
   email_icon,
-  person_icon,
   facebook_icon,
-  twitter_icon,
   instagram_icon,
   linkedin_icon,
-  logo_dark,
+  marketing_icon,
+  menu_icon,
   menu_icon_dark,
   sun_icon,
-  moon_icon
+  moon_icon,
+  twitter_icon,
+  fake_company_1,
+  fake_company_2,
+  fake_company_3,
+  fake_company_4
 }
 
 export default assets

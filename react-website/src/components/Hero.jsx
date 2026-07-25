@@ -29,7 +29,7 @@ const Hero = () => {
         <h1 className='mt-6 text-4xl sm:text-5xl xl:text-6xl font-bold leading-[1.15] text-gray-900 dark:text-white'>
         We design and build<br />
         digital products
-            <span className='block font-display italic font-normal leading-[1.9] pb-[0.3em] bg-gradient-to-r from-[#2F2EBE] to-[#4D8CEA] bg-clip-text text-transparent'>
+            <span className='block font-display italic font-normal leading-[1.9] pb-[0.3em] bg-gradient-to-r from-[#1E1B4B] to-[#4D8CEA] bg-clip-text text-transparent'>
             people love
             </span>
         </h1>
@@ -66,7 +66,7 @@ const Hero = () => {
 
       {/* PRAWA KOLUMNA */}
       <div className='flex-1'>
-        <img src={assets.hero_dashboard} alt='Podgląd produktu' className='w-full' />
+        <img src={assets.dashboard} alt='Podgląd produktu' className='w-full' />
       </div>
     </section>
   );
