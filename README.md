@@ -3,7 +3,7 @@
 A landing page for a fictional digital product studio, built with React, Vite and Tailwind CSS v4.
 
 **Design:** Figma → code, design-first workflow <br>
-**Live demo:** [react-website-delta-ruby.vercel.app](https:/react-website-delta-ruby.vercel.app)
+**Live demo:** [react-website-delta-ruby.vercel.app](react-website-six-chi.vercel.app)
 
 
 ---
