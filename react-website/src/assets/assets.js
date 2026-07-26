@@ -18,17 +18,22 @@ import fake_company_1 from './icons/fake-company-1.svg'
 import fake_company_2 from './icons/fake-company-2.svg'
 import fake_company_3 from './icons/fake-company-3.svg'
 import fake_company_4 from './icons/fake-company-4.svg'
+import fake_company_5 from './icons/fake-company-5.svg'
+import fake_company_6 from './icons/fake-company-6.svg'
 
 /*logos*/
 import favicon from './logos/favicon.svg'
 import logo from './logos/logo.svg'
 import logo_dark from './logos/logo_dark.svg'
 
+
 export const company_logos = [
 fake_company_1,
 fake_company_2,
 fake_company_3, 
-fake_company_4
+fake_company_4,
+fake_company_5,
+fake_company_6
 ]
 
 const assets = {
@@ -49,6 +54,8 @@ const assets = {
   fake_company_2,
   fake_company_3,
   fake_company_4,
+  fake_company_5,
+  fake_company_6,
   favicon,
   logo,
   logo_dark
