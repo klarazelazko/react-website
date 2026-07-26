@@ -16,20 +16,15 @@ const Hero = () => {
     <section id='hero' className='relative flex flex-col lg:flex-row items-center gap-12 lg:gap-8 py-20 px-4 sm:px-12 lg:px-24 xl:px-40 w-full overflow-hidden text-gray-700 dark:text-white'>
 
         {/* blob w tle*/}
-      <div className='absolute top-10 right-0 -z-10 w-[500px] h-[500px] bg-primary/20 rounded-full blur-3xl' />
+      <div className='absolute top-10 right-10 -z-10 w-125 h-125 bg-primary/20 rounded-full blur-3xl' />
 
      {/*LEWA KOLUMNA*/}
       <div className='flex-1 max-lg:text-center'>
-
-        {/* etykieta nad nagłówkiem */}
-        <span className='inline-block text-xs font-semibold tracking-[0.2em] uppercase text-primary bg-primary/10 px-3 py-1 rounded'>
-          Digital product studio
-        </span>
-
+        
         <h1 className='mt-6 text-4xl sm:text-5xl xl:text-6xl font-bold leading-[1.15] text-gray-900 dark:text-white'>
         We design and build<br />
         digital products
-            <span className='block font-display italic font-normal leading-[1.9] pb-[0.3em] bg-gradient-to-r from-[#1E1B4B] to-[#4D8CEA] bg-clip-text text-transparent'>
+            <span className='block text-7xl font-display italic font-normal leading-[1.9] pb-[0.3em] bg-linear-to-r from-[#b2008a] to-[#1000a9] bg-clip-text text-transparent'>
             people love
             </span>
         </h1>
