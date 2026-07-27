@@ -4,6 +4,8 @@ import Hero from './components/Hero';
 import TrustedBy from './components/TrustedBy';
 import Services from './components/Services';
 import ServicesCard from './components/ServicesCard';
+import FeaturedWork from './components/FeaturedWork';
+import Testimonials from './components/Testimonials';
 
 const App = () => {
 
@@ -14,6 +16,8 @@ const App = () => {
       <Hero />
       <TrustedBy />
       <Services />
+      <FeaturedWork />
+      <Testimonials />
     </div>
   );
 };

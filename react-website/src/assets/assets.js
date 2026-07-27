@@ -1,6 +1,3 @@
-/*hero*/
-import dashboard from './hero/dashboard.png'
-
 /*icons*/
 import arrow_icon from './icons/arrow_icon.svg'
 import close_icon from './icons/close_icon.svg'
@@ -26,6 +23,12 @@ import favicon from './logos/favicon.svg'
 import logo from './logos/logo.svg'
 import logo_dark from './logos/logo_dark.svg'
 
+/*hero section*/
+import dashboard from './hero/dashboard.png'
+
+/*featured work section*/
+import work_dashboard from './featured/work_featured_dashboard.png'
+import work_mobile from './featured/work_featured_mobile.png'
 
 export const company_logos = [
 fake_company_1,
@@ -58,18 +61,30 @@ const assets = {
   fake_company_6,
   favicon,
   logo,
-  logo_dark
+  logo_dark,
+  work_dashboard,
+  work_mobile
 }
 
 export default assets
 
-export const teamData = [
-  { name: 'Haley Carter', title: 'CEO & founder', image: 'https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=200' },
-  { name: 'James Walker', title: 'Ads manager', image: 'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?q=80&w=200' },
-  { name: 'Jessica Morgan', title: 'Vice president', image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=200&h=200&auto=format&fit=crop' },
-  { name: 'Ashley Bennett', title: 'Marketing & sales', image: 'https://randomuser.me/api/portraits/women/10.jpg' },
-  { name: 'Emily Parker', title: 'Content marketer', image: 'https://randomuser.me/api/portraits/women/11.jpg' },
-  { name: 'Ryan Mitchell', title: 'Content writer', image: 'https://randomuser.me/api/portraits/men/9.jpg' },
-  { name: 'Megan Brooks', title: 'Performance manager', image: 'https://randomuser.me/api/portraits/women/12.jpg' },
-  { name: 'Amber Foster', title: 'Senior writer', image: 'https://randomuser.me/api/portraits/women/14.jpg' },
+export const testimonialsData = [
+  {
+    quote: 'Nova Studio transformed our idea into a product our users truly love. Highly recommended!',
+    name: 'Sarah Lee',
+    title: 'Founder, Circle',
+    image: 'https://randomuser.me/api/portraits/women/44.jpg',
+  },
+  {
+    quote: 'The team is professional, creative and delivers beyond expectations.',
+    name: 'James Wilson',
+    title: 'CTO, Layers',
+    image: 'https://randomuser.me/api/portraits/men/32.jpg',
+  },
+  {
+    quote: 'Their design skills and attention to detail are second to none.',
+    name: 'Emily Carter',
+    title: 'Marketing Director, Spherule',
+    image: 'https://randomuser.me/api/portraits/women/68.jpg',
+  },
 ]
